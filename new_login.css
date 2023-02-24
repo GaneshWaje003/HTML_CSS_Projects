@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image:url('./back_new_login.jpg') ;
+    background-size:contain;
+
+
+}
+
+.root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    position: relative;
+}
+
+.main-page{
+    margin-top: 6vh;
+    height: 80vh;
+    width:30vw;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px;
+    position:sticky;
+    display: flex;
+    flex-direction: column;
+    place-items:center;
+    box-sizing: border-box;
+}
+
+.main-page h1{
+    text-transform: capitalize;
+    margin:30px auto;
+    text-align: center;
+}
+
+
+.main-info{
+    /* border:2px solid black; */
+    width:50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-info:focus{
+    border:1px solid black;
+}
+
+
+.main-info span{
+    font-size: 18px;
+;
+}
+
+.in-log {
+    height: 3vh;
+    width: 15vw;
+    background-color: transparent;
+    /* border-bottom:5px solid black;
+     */
+     border:none;
+     border-bottom: 1px solid black;
+     border-radius: 2px;
+}
+
+#in-log1{
+    margin: 10px 0 30px 0;
+}
+
+
+#in-log2{
+    margin: 10px 0 30px 0;
+}
+
+.main-page #submit-log{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px; 
+    background-color: black;
+    color:white;
+}
+
+#submit-log:hover{
+    cursor:pointer;
+}
+
+#log-google{
+    margin:50px 0 20px 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.container-logo{
+display: flex;
+}
+
+
+.logo-login svg{
+    height: 5vh ;
+    display: block;
+    /* border:2px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* btton paryant alay */
+
+/* aligning teh login items at center is the current position */
